@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #262626;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    min-height:80px ;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    font-size: 1.3rem;
+}
+a:hover{
+    color: #6C63FF;
+    transition: 200ms;
+}
+#active{
+    color: #6C63FF;
+}
+#hero{
+    height: 100vh;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.container-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    height: 100vh;
+}
+.container-1 img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.container-1 h2{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    text-decoration: underline  #6C63FF;
+    text-underline-offset: 0.5rem;
+    line-height: 80px;
+    width: 100%;
+
+}
+.container-1 button{
+    border:none;
+    padding: 15px;
+    width: 300px;
+    background-color: #6C63FF;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.container-1 button:hover{
+    transform: scale(1.10);
+    background-color:#5047fa
+}
+.flex-container-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-1{
+    width: 100%;
+    max-width: 30rem;
+    text-align: center;
+    color: white;
+}
+.text-1 button{
+    margin-top: 30px;
+}
+.text-1 p{
+    text-align: justify;
+}
+#about{
+    height: 70vh;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.container-2{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-2 img{
+    width: 250px;
+}
+.text-2{
+    width: 100%;
+    max-width: 30rem;
+    text-align: justify;
+}
+footer{
+    background-color: #6C63FF;
+    padding: 30px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text-3{
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    background-color: white;
+    padding: 15px;
+}
+.home a{
+    color: black;
+}

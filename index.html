@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>QuizGame</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1 style="color: white;">Quiz<span style="color:#6C63FF ;">Game</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./Pages/QuizGame-pg-1/index.html" id="active">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container-1">
+            <h2>TESTE AGORA SEUS <br> CONHECIMENTOS GERAIS !</h2>
+            <div class="flex-container-1">
+            <div>
+                <img src="Assets/Imgs/Quiz1.svg" alt="Imagem do quiz">
+            </div>
+            <div class="text-1">
+                <span style="color:#6C63FF; font-size: 2rem;">"</span>
+                <p>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iusto aliquid tempore perspiciatis dicta consectetur impedit a. Maiores suscipit animi molestias esse tenetur, sed nam. Provident doloribus veritatis obcaecati laudantium.</p>
+                </p>
+                <div><a href="./Pages/QuizGame-pg-1/index.html"><button>Jogar Agora</button></a></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container-2">
+            <div class="text-2">
+                <span style="color:#6C63FF; font-size: 2rem;">"</span>
+                    <p>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iusto aliquid tempore perspiciatis dicta consectetur impedit a. Maiores suscipit animi molestias esse tenetur, sed nam. Provident doloribus veritatis obcaecati laudantium.</p>
+                    </p>
+            </div>
+            <div><img src="Assets/Imgs/Books_SVG.svg" alt="Imagens de Livro"></div>
+        </div>
+    </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 1200,
+            delay: 200
+        })
+        ScrollReveal().reveal('#hero', { delay: 500 });
+        ScrollReveal().reveal('#about', { delay: 500 });
+    </script>
+    <script src="Js/script.js"></script>
+    
+</body>
+<footer>
+    <div class="text-3">
+        Developed by: Roberto Athos
+    </div>
+    <div class="home">
+        <a href="#header">Home</a>
+    </div>
+</footer>
+</html>

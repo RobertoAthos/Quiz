@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>QuizGame Questão 3/5</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html"><h1 style="color: white;">Quiz<span style="color:#6C63FF ;">Game</span></h1></a>
+        </div>
+        <label for="check" class="btn" onclick="geeksforgeeks()">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="modal">
+        <div class="bg-popup-right" >
+            <div class="popup-right">
+                <h2>Você Acertou !</h2>
+                <span class="points">+10 Pontos</span>
+                <a href="../QuizGame-pg-4/index.html"><p>>ir para próxima questão</p></a >
+            </div>
+        </div>
+        <div class="bg-popup-wrong" onabort=>
+            <div class="popup-wrong">
+                <h2>Você Errou !</h2>
+                <span class="points">0 Pontos</span>
+                <a href="../QuizGame-pg-4/index.html"><p>>ir para próxima questão</p></a >
+            </div>
+        </div>
+        <a href="../QuizGame-pg-4/index.html">
+            <div class="next-last">
+                <div class="next">
+                    <span class="txt">Próxima Pergunta</span>
+                <span class="arrow">></span>
+                </div>
+            </div>
+        </a>
+    <div class="question">
+        <h2>Responda a questão: 3/5</h2>
+        <div class="question-text">
+            <h3>De onde é a invenção do chuveiro elétrico?</h3>
+        </div>
+        <div class="box-answer">
+        <div class="alternativas">
+        <p id="a" class="answer" onclick="Ffunction()">A) França</p>
+        <p id="b" class="answer" onclick="Ffunction()">B) Inglaterra </p>
+        <p id="c" class="answer" onclick="Tfunction()">C) Brasil</p>
+        <p id="d" class="answer" onclick="Ffunction()">D) Austrália</p>
+        <p id="e" class="answer" onclick="Ffunction()">E) Itália </p>
+        </div>
+        </div>
+    </div>
+    </section>
+    <script src="./Js/script.js"></script>
+    <script src="../../Js/script.js"></script>
+</body>
+</html>

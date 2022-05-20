@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+
+    <title>QuizGame Questão 1/5</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html"><h1 style="color: white;">Quiz<span style="color:#6C63FF ;">Game</span></h1></a>
+        </div>
+        <label for="check" class="btn" onclick="geeksforgeeks()">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="modal">
+        <div class="bg-popup-right" >
+            <div class="popup-right">
+                <h2>Você Acertou !</h2>
+                <span class="points">+10 Pontos</span>
+                <a href="../QuizGame-pg-2/index.html"><p>>ir para próxima questão</p></a >
+            </div>
+        </div>
+        <div class="bg-popup-wrong" onabort=>
+            <div class="popup-wrong">
+                <h2>Você Errou !</h2>
+                <span class="points">0 Pontos</span>
+                <a href="../QuizGame-pg-2/index.html"><p>>ir para próxima questão</p></a >
+            </div>
+        </div>
+    </div>
+        <a href="../QuizGame-pg-2/index.html">
+            <div class="next-last">
+                <div class="next">
+                    <span class="txt">Próxima Pergunta</span>
+                <span class="arrow">></span>
+                </div>
+            </div>
+        </a>
+    <div class="question">
+        <h2>Responda a questão: 1/5</h2>
+        <div class="question-text">
+            <h3 class="1-question">Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?</h3>
+        </div>
+        <div class="box-answer">
+            <span id="numQuestao"></span>
+        <div class="alternativas">
+            <p id="a"  class="answer" onclick="Ffunction()">Tem entre 2 a 4 litros. São retirados 450 mililitros</p>
+            <p  id="b"  class="answer" onclick="Tfunction()">Tem entre 4 a 6 litros. São retirados 450 mililitrose</p>
+            <p  id="c"  class="answer" onclick="Ffunction()">Tem 10 litros. São retirados 2 litros</p>
+            <p  id="d"  class="answer" onclick="Ffunction()">Tem 7 litros. São retirados 1,5 litros</p>
+            <p  id="e"  class="answer" onclick="Ffunction()">Tem 0,5 litros. São retirados 0,5 litros</p>
+        </div>
+        </div>
+       
+
+    </section>
+
+    <script src="Js/script.js"></script>
+    <script src="../../Js/script.js"></script>
+    
+</body>
+</html>
