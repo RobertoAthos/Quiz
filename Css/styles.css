@@ -18,8 +18,8 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 30px;
-    min-height:80px ;
 }
+
 ul{
     display: flex;
     list-style: none;
@@ -42,6 +42,7 @@ a:hover{
     height: 100vh;
     padding: 10px;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 .container-1{
     text-align: center;
@@ -102,7 +103,7 @@ a:hover{
     text-align: justify;
 }
 #about{
-    height: 70vh;
+    height: 100vh;
     padding: 30px;
     margin-top: 80px;
     margin-bottom: 100px;
@@ -125,11 +126,7 @@ a:hover{
 footer{
     background-color: #6C63FF;
     padding: 30px;
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+
 }
 .text-3{
     color: white;
@@ -141,6 +138,8 @@ footer{
 .home{
     background-color: white;
     padding: 15px;
+    text-align: center;
+    margin-top: 30px;
 }
 .home a{
     color: black;

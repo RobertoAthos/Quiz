@@ -1,0 +1,41 @@
+@media(max-width:425px){
+    header div  a {
+        font-size: 1.3rem;
+    }
+    label span{
+        width: 50px;
+        height: 2px;
+    }
+    .bg-popup-right{
+        position: fixed;
+        top: 0;
+    }
+    .popup-right{
+        width: 300px;
+    }
+    .popup-right p{
+        padding: 8px;
+        line-height: 30px;
+        font-size: 0.8rem;
+    }
+    .bg-popup-wrong{
+        position: fixed;
+        top: 0;
+    }
+    .popup-wrong{
+        width: 300px;
+    }
+    .popup-wrong p{
+        padding: 8px;
+        line-height: 30px;
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:375px){
+    header div  a {
+        font-size: 1rem;
+    }
+    .alternativas p{
+        line-height: 40px;
+    }
+}
