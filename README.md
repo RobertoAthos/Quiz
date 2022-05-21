@@ -13,8 +13,8 @@ Um jogo de quiz com perguntas variadas para testar seus conshecimentos gerais
 </div> <br>
 
  ## Site ainda em desenvolvimento 
-  A aplicação aida precisa passar pelo processo de responsividade e acrescentar o sistema de scores quando <br>
-  o jogador acerta ou erra uma questão
+  A aplicação ainda precisa passar pelo processo de responsividade e acrescentar o sistema de scores quando <br>
+  o jogador acerta ou erra uma questão.
 
  ## Demo Screenshots
 
