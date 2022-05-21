@@ -14,7 +14,11 @@ Um jogo de quiz com perguntas variadas para testar seus conshecimentos gerais
 
  ## Site ainda em desenvolvimento 
   A aplicação ainda precisa passar pelo processo de responsividade e acrescentar o sistema de scores quando <br>
-  o jogador acerta ou erra uma questão.
+  o jogador acerta ou erra uma questão. <br>
+  
+  Mas fique a vontada para testar o site no serviço web: <br>
+  https://robertoathos.github.io/Quiz/
+  
 
  ## Demo Screenshots
 
